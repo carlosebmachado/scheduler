@@ -3,4 +3,4 @@ project(src C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(src driver.c)
+add_executable(src driver.c schedulers.c list.c CPU.c)
