@@ -18,6 +18,7 @@ void schedule() {
     // while has tasks in the list
     while (size(tasks) > 0) {
         task = front(tasks);
+        dequeue(tasks);
         start(timer);
         while (!timeout(timer)) {
             run(task, timer->counter + 1);
@@ -27,7 +28,6 @@ void schedule() {
                 break;
             }
         }
-        dequeue(tasks);
         // don't enqueue if task ended
         if (task->burst > 0) {
             enqueue(tasks, task);

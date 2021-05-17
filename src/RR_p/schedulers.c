@@ -28,6 +28,7 @@ void schedule() {
         if(cur_priority == -1) return;
 
         task = front(tasks[cur_priority]);
+        dequeue(tasks[cur_priority]);
         start(timer);
         while (!timeout(timer)) {
             run(task, timer->counter + 1);
@@ -37,7 +38,6 @@ void schedule() {
                 break;
             }
         }
-        dequeue(tasks[cur_priority]);
         // don't enqueue if task ended
         if (task->burst > 0) {
             enqueue(tasks[cur_priority], task);
