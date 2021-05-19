@@ -4,12 +4,12 @@
 
 #include "schedulers.h"
 
-void add(char *name, int tid, int burst) {
+void add(char *name, int tid, int priority, int burst) {
     // init tasks
     if (!tasks) {
         tasks = new_queue();
     }
-    enqueue(tasks, new_task(name, tid, burst));
+    enqueue(tasks, new_task(name, tid, priority, burst));
 }
 
 void schedule() {

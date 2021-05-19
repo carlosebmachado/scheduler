@@ -5,10 +5,11 @@
 #include "task.h"
 
 
-TASK *new_task(char *name, int tid, int burst) {
+TASK *new_task(char *name, int tid, int priority, int burst) {
     TASK *t = malloc(sizeof(TASK));
     t->name = name;
     t->tid = tid;
+    t->priority = priority;
     t->burst = burst;
     return t;
 }

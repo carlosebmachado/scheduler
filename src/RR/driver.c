@@ -21,6 +21,7 @@ int main(int argc, char *argv[]) {
     char task[SIZE];
 
     char *name;
+    int priority;
     int burst;
     int i = 0;
 
@@ -29,10 +30,11 @@ int main(int argc, char *argv[]) {
     while (fgets(task, SIZE, in) != NULL) {
         temp = strdup(task);
         name = strsep(&temp, ",");
+        priority = atoi(strsep(&temp, ","));
         burst = atoi(strsep(&temp, ","));
 
         // add the task to the scheduler's list of tasks
-        add(name, ++i, burst);
+        add(name, ++i, priority, burst);
 
         free(temp);
     }

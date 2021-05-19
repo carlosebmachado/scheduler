@@ -12,9 +12,10 @@
 typedef struct task {
     char *name;
     int tid;
+    int priority;
     int burst;
 } TASK;
 
-TASK *new_task(char *name, int tid, int burst);
+TASK *new_task(char *name, int tid, int priority, int burst);
 
 #endif //TASK_H

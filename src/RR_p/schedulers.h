@@ -13,10 +13,11 @@
 #define MIN_PRIORITY 0
 #define MAX_PRIORITY 2
 
-#define QUANTUM 10
 #define P1 0
 #define P2 1
 #define P3 2
+
+#define QUANTUM 10
 
 QUEUE *tasks[3];
 

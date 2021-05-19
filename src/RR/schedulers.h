@@ -10,15 +10,12 @@
 #include "timer.h"
 
 
-#define MIN_PRIORITY 1
-#define MAX_PRIORITY 10
-
 #define QUANTUM 10
 
 QUEUE *tasks;
 
 // add a task to the list 
-void add(char *name, int tid, int burst);
+void add(char *name, int tid, int priority, int burst);
 
 // invoke the scheduler
 void schedule();
