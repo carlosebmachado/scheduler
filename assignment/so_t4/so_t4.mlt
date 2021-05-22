@@ -1,10 +1,10 @@
-<?xml version="1.0" standalone="no"?>
-<mlt LC_NUMERIC="C" version="7.0.0" title="Shotcut version 21.05.01" producer="main_bin">
+<?xml version="1.0" encoding="UTF-8"?>
+<mlt LC_NUMERIC="C" title="Shotcut version 21.05.01" producer="main_bin">
   <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
   <chain id="chain0" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -16,7 +16,7 @@
   <chain id="chain1" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -45,7 +45,7 @@
   <chain id="chain2" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -58,7 +58,7 @@
   <chain id="chain3" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -71,7 +71,7 @@
   <chain id="chain4" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -84,7 +84,7 @@
   <chain id="chain5" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -97,7 +97,7 @@
   <chain id="chain6" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -110,7 +110,7 @@
   <chain id="chain7" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -123,7 +123,7 @@
   <chain id="chain8" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -136,7 +136,7 @@
   <chain id="chain9" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -149,7 +149,7 @@
   <chain id="chain10" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -162,7 +162,7 @@
   <chain id="chain11" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -175,7 +175,7 @@
   <chain id="chain12" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -188,7 +188,7 @@
   <chain id="chain13" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -201,7 +201,7 @@
   <chain id="chain14" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -214,7 +214,7 @@
   <chain id="chain15" out="00:04:57.900">
     <property name="length">17875</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="resource">2021-05-22 15-55-38.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -227,7 +227,7 @@
   <chain id="chain16" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -240,7 +240,7 @@
   <chain id="chain17" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -253,7 +253,7 @@
   <chain id="chain18" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -266,7 +266,7 @@
   <chain id="chain19" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -279,7 +279,7 @@
   <chain id="chain20" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -292,7 +292,7 @@
   <chain id="chain21" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -305,7 +305,7 @@
   <chain id="chain22" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -318,7 +318,7 @@
   <chain id="chain23" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -331,7 +331,7 @@
   <chain id="chain24" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -344,7 +344,7 @@
   <chain id="chain25" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -357,7 +357,7 @@
   <chain id="chain26" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -370,7 +370,7 @@
   <chain id="chain27" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -383,7 +383,7 @@
   <chain id="chain28" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -396,7 +396,7 @@
   <chain id="chain29" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -409,7 +409,7 @@
   <chain id="chain30" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -422,7 +422,7 @@
   <chain id="chain31" out="00:04:05.800">
     <property name="length">14749</property>
     <property name="eof">pause</property>
-    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="resource">2021-05-22 16-23-58.mkv</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
@@ -490,3 +490,4 @@
     </transition>
   </tractor>
 </mlt>
+
