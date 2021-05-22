@@ -4,6 +4,7 @@
 
 #include "schedulers.h"
 
+
 void add(char *name, int tid, int priority, int burst) {
     // init tasks
     if (!tasks) {

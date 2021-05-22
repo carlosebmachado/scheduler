@@ -1,0 +1,492 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.0.0" title="Shotcut version 21.05.01" producer="main_bin">
+  <profile description="automatic" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+  </chain>
+  <chain id="chain1" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+  </chain>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:04:57.900"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:04:05.800"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:06:43.450">
+    <property name="length">00:06:43.467</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:06:43.450"/>
+  </playlist>
+  <chain id="chain2" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain3" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain4" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain5" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain6" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain7" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain8" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain9" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain10" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain11" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain12" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain13" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain14" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain15" out="00:04:57.900">
+    <property name="length">17875</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 15-55-38.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">6a505a49b2444b1db9d4fb42d0ebe6ef</property>
+    <property name="shotcut:caption">2021-05-22 15-55-38.mkv</property>
+  </chain>
+  <chain id="chain16" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain17" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain18" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain19" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain20" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain21" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain22" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain23" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain24" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain25" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain26" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain27" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain28" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain29" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain30" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <chain id="chain31" out="00:04:05.800">
+    <property name="length">14749</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/carlos/2021-05-22 16-23-58.mkv</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a21966c1bcdfc50799ae51427f8f63f3</property>
+    <property name="shotcut:caption">2021-05-22 16-23-58.mkv</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain2" in="00:00:08.783" out="00:00:36.667"/>
+    <entry producer="chain3" in="00:00:37.450" out="00:01:57.633"/>
+    <entry producer="chain4" in="00:01:58.800" out="00:02:13.000"/>
+    <entry producer="chain5" in="00:02:14.767" out="00:02:22.350"/>
+    <entry producer="chain6" in="00:02:24.583" out="00:02:25.867"/>
+    <entry producer="chain7" in="00:02:26.467" out="00:02:48.433"/>
+    <entry producer="chain8" in="00:02:51.467" out="00:02:51.983"/>
+    <entry producer="chain9" in="00:02:54.300" out="00:02:56.367"/>
+    <entry producer="chain10" in="00:02:57.350" out="00:03:04.650"/>
+    <entry producer="chain11" in="00:03:05.883" out="00:03:06.550"/>
+    <entry producer="chain12" in="00:03:07.383" out="00:03:24.867"/>
+    <entry producer="chain13" in="00:03:27.983" out="00:04:33.217"/>
+    <entry producer="chain14" in="00:04:36.650" out="00:04:42.683"/>
+    <entry producer="chain15" in="00:04:45.717" out="00:04:52.283"/>
+    <blank length="00:00:00.183"/>
+    <entry producer="chain16" in="00:00:38.150" out="00:00:47.083"/>
+    <entry producer="chain17" in="00:00:48.050" out="00:00:51.833"/>
+    <entry producer="chain18" in="00:01:03.167" out="00:01:04.083"/>
+    <entry producer="chain19" in="00:01:38.767" out="00:01:42.600"/>
+    <entry producer="chain20" in="00:01:43.483" out="00:01:49.417"/>
+    <entry producer="chain21" in="00:01:50.300" out="00:01:59.667"/>
+    <entry producer="chain22" in="00:02:00.933" out="00:02:06.100"/>
+    <entry producer="chain23" in="00:02:07.167" out="00:02:21.983"/>
+    <entry producer="chain24" in="00:02:23.050" out="00:02:24.950"/>
+    <entry producer="chain25" in="00:02:27.483" out="00:02:30.750"/>
+    <entry producer="chain26" in="00:02:31.467" out="00:02:42.417"/>
+    <entry producer="chain27" in="00:02:43.200" out="00:02:51.567"/>
+    <entry producer="chain28" in="00:02:53.267" out="00:03:00.717"/>
+    <entry producer="chain29" in="00:03:01.617" out="00:03:56.267"/>
+    <entry producer="chain30" in="00:03:57.700" out="00:03:58.883"/>
+    <entry producer="chain31" in="00:03:59.933" out="00:04:03.233"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 21.05.01" in="00:00:00.000" out="00:06:43.450">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
