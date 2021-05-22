@@ -11,7 +11,7 @@ void add(char *name, int tid, int priority, int burst) {
     if (!tasks[P3]) tasks[P3] = new_queue();
 
     int norm_priority = priority - 1;
-    if (norm_priority >= MIN_PRIORITY && norm_priority <= MAX_PRIORITY){
+    if (norm_priority >= MIN_PRIORITY && norm_priority <= MAX_PRIORITY) {
         enqueue(tasks[norm_priority], new_task(name, tid, priority, burst));
     }
 }
@@ -25,7 +25,7 @@ void schedule() {
         cur_priority = size(tasks[P3]) > 0 ? P3 : -1;
         cur_priority = size(tasks[P2]) > 0 ? P2 : cur_priority;
         cur_priority = size(tasks[P1]) > 0 ? P1 : cur_priority;
-        if(cur_priority == -1) return;
+        if (cur_priority == -1) return;
 
         task = front(tasks[cur_priority]);
         dequeue(tasks[cur_priority]);

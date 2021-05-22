@@ -83,7 +83,8 @@ size_t size(QUEUE *queue) {
 void traverse(QUEUE *queue) {
     ELEMENT *current = queue->first;
     while (current) {
-        printf("[%s] [%d] [%d] [%d]\n", current->value->name, current->value->tid, current->value->priority, current->value->burst);
+        printf("[%s] [%d] [%d] [%d]\n", current->value->name, current->value->tid, current->value->priority,
+               current->value->burst);
         current = current->next;
     }
 }
